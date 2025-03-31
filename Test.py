@@ -3,7 +3,7 @@ import glob
 import torch
 from PIL import Image
 import torchvision.transforms as transforms
-from Datasets import GeneratorResNet
+from models import GeneratorResNet
 
 
 WEIGHTS_DIR = "weights"
